@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+     font-family: "Hind Siliguri", sans-serif;
+}
+header{
+    margin-top: 20px;
+}
+.containar{
+    width: 80%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+nav ul{
+    font-weight: 400;
+    font-size: 18px;
+    color: Dark;
+}
+
+ .btn-button{
+     border: 1px solid #FF7235;
+    color: #FF7235;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+
+ }
+
+ /* ......... product section ..........  */
+ .product-bg {
+    background-color: #FF7235;
+    position: relative;
+    padding: 80px 0 0 0;
+ }
+
+ .product-image img {
+    position: relative;
+    bottom: -8px;
+    width: 100%;
+    z-index: 1;
+ }
+
+ .product-images .bottom-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
+
+.product-images .top-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
